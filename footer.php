@@ -15,7 +15,7 @@
                 <span class="author"><?php $username = get_option('next_author','admin'); echo get_profile( 'display_name', $username ); ?></span>
             </div>
             <div class="powered-by">Powered by <a href="//cn.wordpress.org" target="_blank">WordPress</a></div>
-            <div class="theme-info">Theme <a href="https://github.com/pengtikui/NexT" target="_blank">NexT WP</a></div>
+            <div class="theme-info">Theme <a href="https://github.com/rffanlab/NexT" target="_blank">NexT WP</a></div>
             <div style="display:none"><?php echo get_option('next_analyze_code'); ?></div>
         </div>
     </footer>

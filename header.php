@@ -37,7 +37,7 @@
 </head>
 <body>
 <div class="container one-collumn sidebar-position-left <?php if(is_home()){echo "page-home";} if(is_single()){echo "page-post-detail";} if(is_page()){echo "page-archive";} ?>">
-    <div class="headband"></div>
+<!--    <div class="headband"></div>-->
     <header id="header" class="header">
         <div class="header-inner with-shadow">
             <div class="site-meta">
