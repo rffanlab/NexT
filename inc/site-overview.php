@@ -1,6 +1,8 @@
 <div class="site-author motion-element">
-    <img class="site-author-image" src="<?php $usermail = get_option('next_author','admin'); echo get_avatar_url( $usermail ); ?>" alt="avatar">
+    <img class="site-author-image" src="https://secure.gravatar.com/avatar/d5db12e958c68656a2cb7adf4768066c?s=96" alt="avatar">
+
 	<p class="site-author-name"><?php $usermail = get_option('next_author','admin'); echo get_the_author_meta( 'display_name', get_user_by( 'email', $usermail)->ID ); ?></p>
+
 	<p class="site-description motion-element"><?php $username = get_option('next_author','admin'); echo get_the_author_meta( 'description', get_user_by( 'email', $usermail)->ID ); ?></p>
 </div>
 <nav class="site-state motion-element">

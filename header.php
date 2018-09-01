@@ -14,7 +14,7 @@
     <!-- Google Font -->
     <!-- <link href="//fonts.useso.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css"> -->
     <!-- Font-Awesome -->
-    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Main CSS -->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/statics/css/<?php echo get_option('next_scheme', 'muse'); ?>.css">
     <!-- style.css -->

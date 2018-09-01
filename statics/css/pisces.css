@@ -1446,7 +1446,7 @@ pre .javascript .function {
 .site-author-image {
   display: block;
   margin: 0 auto;
-  max-width: 96px;
+  width: 96px;
   height: auto;
   border: 2px solid #333;
   padding: 2px;
