@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <main id="main" class="main">
     <div class="main-inner">
-        <div class="content-wrap">
+        <div class="content-wrap with-shadow">
             <div id="content" class="content">
                 <div id="posts" class="posts-expand">
                     <?php
@@ -31,7 +31,7 @@
             </div>
         </div>
         <aside id="sidebar" class="sidebar">
-            <div class="sidebar-inner">
+            <div class="sidebar-inner with-shadow-around">
                 <ul class="sidebar-nav motion-element">
                     <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">文章目录</li>
                     <li class="sidebar-nav-overview" data-target="site-overview">站点概览</li>

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	<main class="main" id="main">
 		<div class="main-inner">
-			<div class="content-wrap">
+			<div class="content-wrap with-shadow">
 				<div class="next-404 text-center">
 					<h1>404</h1>
 					<p>对不起，您要找到的页面不存在！</p>
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 			<aside id="sidebar" class="sidebar">
-				<div class="sidebar-inner">
+				<div class="sidebar-inner with-shadow-around">
 					<section class="site-overview sidebar-panel sidebar-panel-active ">
 						<?php include 'inc/site-overview.php'; ?>
 					</section>

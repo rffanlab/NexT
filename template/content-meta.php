@@ -24,7 +24,7 @@
 		</div>
 	</header>
 	<div class="post-body">
-		<?php the_content(''); ?>
+        <?php echo mb_strimwidth(strip_tags(apply_filters('content', $post->post_content)), 0, 200,"..."); ?>
 		<div class="post-more-link text-center">
 			<a class="btn" href="<?php the_permalink(); ?>">阅读全文 »</a>
 		</div>

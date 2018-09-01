@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	<main id="main" class="main">
 		<div class="main-inner">
-			<div class="content-wrap">
+			<div class="content-wrap with-shadow">
 				<div id="content" class="content">
 					<section id="posts" class="posts-expand">
 						<?php
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 			<aside id="sidebar" class="sidebar">
-				<div class="sidebar-inner">
+				<div class="sidebar-inner with-shadow-around">
 					<section class="site-overview sidebar-panel sidebar-panel-active">
 						<?php include 'inc/site-overview.php'; ?>
 					</section>
